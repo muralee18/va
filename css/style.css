@@ -1,0 +1,202 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.sidenav-overlay {
+  background-color: transparent !important;
+}
+
+.parallax-container {
+  background-image: linear-gradient(
+    to right,
+    rgba(8, 87, 139, 0.5),
+    rgba(8, 87, 139, 0.7)
+  );
+  min-height: 400px;
+  line-height: 0;
+  height: auto;
+  color: #f7f7f7 !important;
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+.download-btn {
+  padding: 10px 15px 10px 15px;
+  border: 1px white solid !important;
+  border-radius: 2px;
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+  letter-spacing: 2px;
+}
+
+.download-btn:hover {
+  background-color: white;
+  color: rgb(8, 87, 139);
+}
+
+.con {
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+.va {
+  margin-left: 0px;
+}
+
+.item .card-panel {
+  height: 290px !important;
+  word-spacing: 1px;
+  font-size: 13px;
+  word-spacing: 2px;
+  line-height: 20px;
+  text-align: justify !important;
+}
+
+.item h6 {
+  font-weight: bold !important;
+  color: #444444;
+}
+.cardhead {
+  height: 50px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+  }
+
+  .first-parallax {
+    top: 40%;
+    min-height: 400px !important;
+  }
+
+  .background-video {
+    padding-top: 50px !important;
+  }
+
+  .parallax-container {
+    min-height: 700px;
+  }
+  .cont {
+    min-height: 390px !important;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .item .card-panel {
+    font-size: 12px !important;
+    text-align: center !important;
+    padding: 10px;
+  }
+  .vid {
+    height: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.features {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 3px;
+  height: 300px;
+  font-size: 13px;
+  color: #777;
+  margin-left: 39px !important;
+  margin-right: 39px !important;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.feature-box__text {
+  line-height: 1.7;
+}
+
+.features:hover {
+  transform: translateY(-10px) scale(1);
+}
+
+.social li {
+  margin-left: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.social li:hover {
+  color: black;
+}
+
+.big li {
+  margin-top: 30px !important;
+  font-size: 30px !important;
+  color: white !important;
+}
+
+.big .fa-facebook:hover {
+  color: #3b5998 !important;
+}
+
+.big .fa-twitter:hover {
+  color: #55acee !important;
+}
+
+.big .fa-google-plus:hover {
+  color: #dc4e41 !important;
+}
+
+.big .fa-linkedin:hover {
+  color: #0077b5 !important;
+}
